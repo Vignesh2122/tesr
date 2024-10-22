@@ -1,4 +1,4 @@
-# Use official Nginx image
+
 FROM nginx:alpine
 
 # Copy the website files to Nginx's default serving directory
