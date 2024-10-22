@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #1a73e8;
+        }
+        .content {
+            line-height: 1.6;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .feature-card {
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 6px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Our Website</h1>
+            <p>A simple and clean design for your project</p>
+        </header>
+        
+        <div class="content">
+            <h2>About Us</h2>
+            <p>We are a team dedicated to creating simple and effective web solutions. Our goal is to make technology accessible and user-friendly.</p>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Simple</h3>
+                    <p>Clean and minimalist design for better user experience</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Fast</h3>
+                    <p>Optimized performance for quick loading times</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Secure</h3>
+                    <p>Built with security best practices in mind</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
