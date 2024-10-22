@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  website:
+    build: .
+    image: simple
+    container_name: simple-website
+    ports:
+      - "8080:80"
