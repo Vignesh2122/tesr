@@ -1,7 +1,7 @@
 
 FROM nginx:alpine
 
-# Copy the website files to Nginx's default serving direc
+# Copy the website files to Nginx's default serving
 COPY index.html /usr/share/nginx/html/
 
 # Expose port 80
