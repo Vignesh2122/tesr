@@ -1,9 +1,7 @@
 version: '3'
 
 services:
-  website:
-    build: .
-    image: simple
+    image: simple:1.0.1
     container_name: simple-website
     ports:
       - "8080:80"
