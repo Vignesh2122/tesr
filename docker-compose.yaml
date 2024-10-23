@@ -1,6 +1,6 @@
 version: '3'
-
 services:
+  website:  
     image: simple:1.0.1
     container_name: simple-website
     ports:
